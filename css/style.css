@@ -10,7 +10,7 @@
 /* fine common */
 
 /* header */
-#main-header {
+.container {
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: 100%;
@@ -18,7 +18,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 50%;
     z-index: 99;
 }
 
@@ -26,25 +26,39 @@
     display: inline-block;
 } */
 
-#main-haeder nav li {
+#main-nav {
     margin: 0 5px;
     display: inline-block;
-    line-height: 70px;
+    line-height: 30px;
 }
 
-#main-header nav li a {
+#main-nav a {
     display: inline-block;
     padding: 0 5px;
     text-decoration: none;
     color: white;
 }
 
-#main-header nav .logo img {
+#accedi a {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 40%;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container .logo img {
     vertical-align: middle;
     height: auto;
 }
 
-#main-header nav li:hover {
+#main-nav a:hover {
     border-bottom: 2px solid white;
 }
 
