@@ -135,6 +135,30 @@ header {
 /* fine jumbo */
 
 /* main */
+.third-bloc {
+    position: relative;
+    vertical-align: middle;
+    height: auto;
+}
+
+.third-bloc .foto-1 {
+    display: inline-block;
+}
+
+.third-bloc h1 {
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+}
+
+.third-bloc p {
+    display: inline-block;
+    width: 20%;
+    height: 30%;
+}
+
+
+
 .blue {
     background-color: lightskyblue;
     color: white;
