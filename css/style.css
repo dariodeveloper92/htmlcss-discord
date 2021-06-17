@@ -7,7 +7,7 @@
 /* common */
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* fine common */
@@ -121,12 +121,16 @@ header {
     background-color: white;
     color: black;
     position: absolute;
+    bottom: 20%;
+    right: 53%;
 }
 
 .second-bloc .black {
     background-color: black;
     color: white;
     position: absolute;
+    bottom: 20%;
+    right: 28%;
 }
 /* fine jumbo */
 
