@@ -11,7 +11,9 @@
 
 /* header */
 #main-header {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,12 +22,12 @@
     z-index: 99;
 }
 
-#main-header nav {
+/* #main-header nav {
     display: inline-block;
-}
+} */
 
 #main-haeder nav li {
-    margin: 0 10px;
+    margin: 0 5px;
     display: inline-block;
     line-height: 70px;
 }
