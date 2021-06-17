@@ -20,5 +20,31 @@
     z-index: 99;
 }
 
+#main-header nav {
+    display: inline-block;
+}
+
+#main-haeder nav li {
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 70px;
+}
+
+#main-header nav li a {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#main-header nav .logo img {
+    vertical-align: middle;
+    height: auto;
+}
+
+#main-header nav li:hover {
+    border-bottom: 2px solid white;
+}
+
 /* fine header */
 
