@@ -203,8 +203,45 @@ h3 {
 
 /* fine main */
 
+/* footer */
 footer {
     width: 100%;
     height: 100%;
     background-color: black;
+    color: white;
 }
+
+.container-footer {
+    width: 100%;
+}
+
+.footer-top {
+    width: 100%;
+}
+
+.first-faq,
+.second-faq,
+.third-faq,
+.fourfth-faq,
+.fifth-faq {
+    height: 100px;
+    margin: 0;
+    padding: 10px;
+    float: left;
+    padding: 10px;   
+}
+
+.footer-bottom {
+    width: 100%;
+    position: absolute;
+    margin: 270px 10px;
+}
+
+.text-blue {
+    color: rgb(128, 109, 236);
+}
+
+li {
+    list-style: none;
+}
+/* fine footer */
