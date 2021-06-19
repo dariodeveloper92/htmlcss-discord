@@ -50,6 +50,11 @@ a:hover {
     color: white;
 }
 
+.logo-position {
+    position: absolute;
+    margin: 10px 0;
+}
+
 /* .clearfix::after {
     content: "";
     display: table;
@@ -209,6 +214,7 @@ footer {
     height: 100%;
     background-color: black;
     color: white;
+    font-size: 15px;
 }
 
 .container-footer {
@@ -216,7 +222,8 @@ footer {
 }
 
 .footer-top {
-    width: 100%;
+    width: 80%;
+    margin: 0 270px;
 }
 
 .first-faq,
@@ -225,16 +232,16 @@ footer {
 .fourfth-faq,
 .fifth-faq {
     height: 100px;
-    margin: 0;
+    margin: 30px;
     padding: 10px;
     float: left;
     padding: 10px;   
 }
 
 .footer-bottom {
-    width: 100%;
+    width: 80%;
     position: absolute;
-    margin: 270px 10px;
+    margin: 300px 270px;
 }
 
 .text-blue {
@@ -244,4 +251,34 @@ footer {
 li {
     list-style: none;
 }
+
+.line-footer {
+    width: 1000px;
+    position: absolute;
+    margin: 280px 270px;
+}
+
+i {
+    color: white;
+}
+
+.registrati-position {
+    float: right;
+    margin: 20px 210px;
+}
+
+/* .title-faq {
+    position: absolute;
+    margin: 80px 80px;
+}
+
+.text-faq {
+    position: absolute;
+    margin: 100px 80px;
+}
+
+.faq-uno {
+    position: absolute;
+    margin: 80px 120px;
+} */
 /* fine footer */
