@@ -260,11 +260,16 @@ li {
 
 i {
     color: white;
+    margin: 10px;
 }
 
 .registrati-position {
     float: right;
     margin: 20px 210px;
+}
+
+.italiano {
+    color: white;
 }
 
 /* .title-faq {
